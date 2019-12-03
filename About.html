@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+body {
+  margin: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(235, 247, 237);
+}
+
+.navBar {
+  overflow: hidden ;
+  background-color: rgb(39, 43, 40);
+    border-radius: 15px 5px 15px 5px;
+
+}
+
+.navBar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px 14px;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+.navBar a:hover {
+  background-color: rgb(193, 201, 193);
+  color: black;
+}
+
+.navBar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.video {
+align: center;
+}
+</style>
+</head>
+<body>
+<div class="navBar">
+    <a href="Home.html"> Home </a>
+    <a href="Members Info.html"> Members Info </a>
+    <a href="Budget.html"> Budget </a>
+    <a href="Contribution.html"> Contribution </a>
+    <a href="Project Info.html"> Project Details </a>
+    <a href="About.html"> About</a>
+    <h3 style="color:white; text-align: right; font-size:18px;">Need for Speed</h3>
+</div>
+<p style="padding: 5px; color: blue; margin: 5px; color:rgb(24, 26, 24);">
+    <br>
+    <h4 style="text-align:center;">Project for IT-214 Fundamentals of Software Development, Sec-1 by Dr. Michael Hart, Fall 2019.</h4><br>
+    Project RC-Car is a full fletched remote-control car which utilizes our very own android app as a controller and can also use any basic Arduino Bluetooth App. The car uses power from a rechargeable 12V power source to power Arduino Mega 2560 and L293D Adafruit Motor Shield plus its libraries for desired movement control through an HC-06 Bluetooth Module. The Car also has a HC-SR04 Ultrasonic Sensor connected at the front part for it to avoid any obstacle present in front.
+
+</p>
+<br>
+<br>
+<video class="video" width="500" controls>
+    <source src="RC.mp4">
+</video>
+
+</body>
+</html>
